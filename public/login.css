@@ -1,0 +1,77 @@
+.loginPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px; /* Add some padding for smaller screens */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.loginCard {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+  width: 100%;
+  max-width: 420px; /* Slightly wider */
+  box-sizing: border-box;
+  text-align: center; /* Center content within the card */
+}
+
+.loginTitle {
+  color: #2c3e50; /* Darker, professional blue-grey */
+  margin-bottom: 35px;
+  font-size: 2.2em; /* Larger title */
+  font-weight: 600; /* Semi-bold */
+}
+
+.loginInput {
+  width: 100%;
+  padding: 14px 18px; /* More padding */
+  margin-bottom: 22px; /* Consistent spacing */
+  border: 1px solid #e0e0e0; /* Lighter border */
+  border-radius: 8px; /* Rounded input fields */
+  font-size: 1.1em; /* Slightly larger text */
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth focus */
+}
+
+.loginInput:focus {
+  border-color: #007bff; /* Highlight border on focus */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2); /* Soft blue glow */
+  outline: none; /* Remove default outline */
+}
+
+.loginButton {
+  width: 100%;
+  padding: 0px 20px; /* More padding for a bigger button */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em; /* Larger text on button */
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease; /* Hover & click effects */
+  letter-spacing: 0.5px; /* Slight letter spacing */
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.loginButton:active {
+  background-color: #004085;
+  transform: translateY(0); /* "Press down" effect */
+}
+
+.errorMessage {
+  color: #dc3545; /* Red for errors */
+  text-align: center;
+  margin-top: 25px;
+  font-size: 0.95em;
+  font-weight: 500;
+}
