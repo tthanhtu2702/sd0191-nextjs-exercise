@@ -13,6 +13,7 @@ next dev
 ## Directory structure (Next.js 15+ App Router, with /app directory)
 
 Project root:
+```bash
 app
 ├── public/
 │   └── css, fonts, images, js, media
@@ -45,7 +46,7 @@ app
 │	└── login
 │		└── route.tsx		(POST login)
 ...
-
+```
 ## Simulated API routes
 1. GET news (/app/api/news/route.ts)
 2. POST login (/app/api/login/route.ts)
